@@ -145,5 +145,6 @@ fi
 
 chmod +x finder.py
 chmod +x Sublisting.sh
+chmod +x setup.py
 
 echo "[INFO] Todas las dependencias se han instalado correctamente."

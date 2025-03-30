@@ -64,7 +64,7 @@ def main():
     global LOGS_ENABLED
     banner()
     parser = argparse.ArgumentParser(description="Herramienta de Enumeración de Subdominios")
-    parser.add_argument("-o", required=True, help="Archivo de entrada con dominios (se permiten comodines)")
+    parser.add_argument("-o", required=True, help="Archivo de entrada con dominios")
     parser.add_argument("-l", "--logs", action="store_true", help="Habilitar registro de logs detallados")
     args = parser.parse_args()
     

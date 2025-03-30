@@ -19,6 +19,3 @@ Esta herramienta está diseñada exclusivamente para la enumeración de subdomin
     ```r
     python3 setup.py -o <archivo_de_dominios> -l
     ```
-
-## Autor:
-
